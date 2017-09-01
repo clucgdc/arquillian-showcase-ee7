@@ -10,4 +10,5 @@
     <packaging>jar</packaging>
     
     <name>Arquillian Showcase EE7: EJB</name>
+    <description>Examples that demonstrate how to test EJB components using Arquillian</description>
 </project>
