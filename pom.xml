@@ -186,7 +186,7 @@
             <id>wildfly-managed</id>
             <properties>
                 <serverProfile>standalone-full.xml</serverProfile>
-                <serverRoot>${project.build.directory}/wildfly-${wildfly.version}</serverRoot>
+                <serverRoot>${project.build.directory}/../wildfly-${wildfly.version}</serverRoot>
             </properties>
             <dependencies>
                 <!-- Needed for websocket tests that use ContainerProvider.getWebSocketContainer() 
