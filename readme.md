@@ -10,4 +10,4 @@ All tests run with:
 
 * JDK 8
 * JavaEE 7
-* Containers: Payara, GlassFish, Wildfly
+* Containers: Payara Embedded, GlassFish Embedded, Wildfly Managed
