@@ -1,1 +1,2 @@
-mvn clean test -P payara-embedded,glassfish-embedded,wildfly-managed
+language: java
+script: mvn clean test -P payara-embedded,glassfish-embedded,wildfly-managed
