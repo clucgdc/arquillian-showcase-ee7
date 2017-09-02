@@ -3,3 +3,7 @@
 nb-configuration.xml
 /ejb/nbproject/
 /ejb/target/
+/jpa/nbproject/
+/jpa/target/
+/target/
+/jpa/derby.log

@@ -10,6 +10,7 @@
     <modules>
         <module>cdi</module>
         <module>ejb</module>
+        <module>jpa</module>
     </modules>
     
     <properties>
@@ -115,6 +116,16 @@
                 </dependency>
             </dependencies>
             <build>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <configuration>
+                            <systemProperties>
+                                <arquillian.launch>glassfish-embedded</arquillian.launch>
+                            </systemProperties>
+                        </configuration>
+                    </plugin>
+                </plugins>
                 <testResources>
                     <testResource>
                         <directory>src/test/resources</directory>
@@ -169,6 +180,16 @@
                 </dependency>
             </dependencies>
             <build>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <configuration>
+                            <systemProperties>
+                                <arquillian.launch>glassfish-embedded</arquillian.launch>
+                            </systemProperties>
+                        </configuration>
+                    </plugin>
+                </plugins>
                 <testResources>
                     <testResource>
                         <directory>src/test/resources</directory>
@@ -186,7 +207,7 @@
             <id>wildfly-managed</id>
             <properties>
                 <serverProfile>standalone-full.xml</serverProfile>
-                <serverRoot>${project.build.directory}/../wildfly-${wildfly.version}</serverRoot>
+                <serverRoot>${project.build.directory}/wildfly-${wildfly.version}</serverRoot>
             </properties>
             <dependencies>
                 <!-- Needed for websocket tests that use ContainerProvider.getWebSocketContainer() 

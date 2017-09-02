@@ -6,6 +6,12 @@
     <engine>
         <property name="deploymentExportPath">target/deployments</property>
     </engine>
+    
+    <container qualifier="glassfish-embedded">
+        <configuration>
+            <property name="bindHttpPort">7070</property>
+        </configuration>
+    </container>
 
     <container qualifier="wildfly" default="true">
         <configuration>
