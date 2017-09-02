@@ -1,4 +1,6 @@
 language: java
 jdk:
   - oraclejdk8
-script: mvn clean test -P payara-embedded,glassfish-embedded,wildfly-managed -X
+script: mvn clean test -P payara-embedded,glassfish-embedded,wildfly-managed
+after_failure:
+  - cat target/surefire-reports/*.txt
