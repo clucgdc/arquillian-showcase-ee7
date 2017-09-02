@@ -1,4 +1,4 @@
 language: java
 jdk:
   - oraclejdk8
-script: mvn clean test -P payara-embedded,glassfish-embedded,wildfly-managed -e
+script: mvn clean test -P payara-embedded,glassfish-embedded,wildfly-managed -X
