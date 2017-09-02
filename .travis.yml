@@ -1,0 +1,1 @@
+mvn clean test -P payara-embedded,glassfish-embedded,wildfly-managed
