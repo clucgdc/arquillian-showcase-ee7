@@ -7,3 +7,4 @@ nb-configuration.xml
 /jpa/target/
 /target/
 /jpa/derby.log
+/jpa-ext/target/
