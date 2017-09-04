@@ -8,3 +8,6 @@ nb-configuration.xml
 /target/
 /jpa/derby.log
 /jpa-ext/target/
+/servlet/nbproject/
+/servlet/target/
+*.log

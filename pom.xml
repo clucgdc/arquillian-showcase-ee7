@@ -12,6 +12,7 @@
         <module>ejb</module>
         <module>jpa</module>
         <module>jpa-ext</module>
+        <module>servlet</module>
     </modules>
     
     <properties>
