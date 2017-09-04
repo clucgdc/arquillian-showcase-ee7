@@ -3,7 +3,7 @@ jdk:
   - oraclejdk8
 script: 
   - mvn clean test -Ppayara-embedded
-  - mvn clean test -Pglassfish-embedded
+#  - mvn clean test -Pglassfish-embedded
   - mvn clean test -Pwildfly-managed
-after_failure:
-  - cat cdi/target/surefire-reports/*.txt
+#after_failure:
+#  - cat cdi/target/surefire-reports/*.txt

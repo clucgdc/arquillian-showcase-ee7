@@ -11,3 +11,6 @@ nb-configuration.xml
 /servlet/nbproject/
 /servlet/target/
 *.log
+/jsf/nbproject/
+/jaxws/nbproject/
+/jaxws/target/

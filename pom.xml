@@ -13,6 +13,7 @@
         <module>jpa</module>
         <module>jpa-ext</module>
         <module>servlet</module>
+        <module>jaxws</module>
     </modules>
     
     <properties>
