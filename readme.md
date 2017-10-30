@@ -1,4 +1,5 @@
 # Arquillian Showcase - JDK8 JavaEE7
+![travis status](https://travis-ci.org/clucgdc/arquillian-showcase-ee7.svg?branch=master)
 
 ---
 
